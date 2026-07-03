@@ -82,6 +82,27 @@ textarea {
   gap: 16px;
 }
 
+.subsection {
+  border-top: 1px solid #eee5da;
+  padding-top: 16px;
+}
+
+.mini-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 12px;
+}
+
+.mini-title h3 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.mini-title svg {
+  color: #0d7c66;
+}
+
 .side {
   display: grid;
   gap: 18px;
@@ -135,6 +156,12 @@ textarea {
   min-height: 46px;
   padding: 11px 12px;
   outline: none;
+}
+
+.field input[readonly] {
+  background: #f3eee7;
+  color: #34414c;
+  font-weight: 800;
 }
 
 .field textarea {
